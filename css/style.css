@@ -20,8 +20,16 @@
 .date:hover{
     background-color: aquamarine;
 }
+
+
+
 .other-month{
     background-color: lightgray;
+}
+.it{
+    background-color: rgb(144, 17, 255);
+    border-radius: 50px;
+    color: aliceblue;
 }
 .day{
     font-size: 3em;
@@ -32,10 +40,14 @@
     align-items: center;
 
 }
+
 .xuma{
     background-color: rgb(2, 228, 164);
      display: flex;
      justify-content: center;
      margin-bottom: 50px;
-     border-radius: 100px;
+     border-radius: 50px 20px 50px 20px;
+     font-size: 20px;
+     text-align: center;
+     color: rgb(99, 23, 252);
 }
