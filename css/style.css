@@ -1,0 +1,41 @@
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows:80px repeat(5, 75px);
+  row-gap:20px ;
+  column-gap: 10px;
+   
+    
+}
+
+.date{
+    background-color: skyblue;
+    
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.date:hover{
+    background-color: aquamarine;
+}
+.other-month{
+    background-color: lightgray;
+}
+.day{
+    font-size: 3em;
+    background-color: aqua;
+    border-radius: 10px 30px 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.xuma{
+    background-color: rgb(2, 228, 164);
+     display: flex;
+     justify-content: center;
+     margin-bottom: 50px;
+     border-radius: 100px;
+}
